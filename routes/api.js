@@ -48,6 +48,8 @@ router.post('/pridiction',function(req,res, next){
    }).catch(next);
    
 });
+
+/*
 router.get('/pridiction/:ticker/:sdate/:edate',function(req,res, next){
    Pridiction.find({
       $and : [
@@ -58,4 +60,26 @@ router.get('/pridiction/:ticker/:sdate/:edate',function(req,res, next){
    }).catch(next);
    
 });
+*/
+router.get('/pridiction/:ticker/:sdate/:edate',function(req,res, next){
+   Pridiction.aggregate([{ $group : { _id : "$ticker", ticker: { $push: "$$ROOT" } }}],
+      ,$and : [
+      {ticker :{$in : req.params.ticker.split(',')}},
+      {prediction_date : { $gte : req.params.sdate , $lte : req.params.edate}}]
+      ).then(function(prid){
+      res.send(prid);
+   }).catch(next);
+   
+});
+
+
+
+/*
+router.get('/pridiction',function(req,res, next){
+   Pridiction.aggregate([{ $group : { _id : "$ticker", ticker: { $push: "$$ROOT" } }}]
+      ).then(function(prid){
+      res.send(prid);
+   }).catch(next);
+   
+});*/
 module.exports  = router;
