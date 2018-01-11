@@ -1,0 +1,19 @@
+{
+  "name": "mnapi",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"Error \" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "licence": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.9"
+  }
+}
