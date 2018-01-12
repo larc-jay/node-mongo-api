@@ -1,0 +1,146 @@
+/* 1 */
+{
+    "_id" : "MSFT",
+    "ticker" : [ 
+        {
+            "_id" : ObjectId("5a56b2c6d0090ced035b3146"),
+            "ticker" : "MSFT",
+            "prediction" : 13.955962918849,
+            "prediction_date" : "2017-06-10T14:42:27.042Z",
+            "computation_date" : "2017-06-10T14:42:27.042Z"
+        }, 
+        {
+            "_id" : ObjectId("5a56b2c6d0090ced035b3147"),
+            "ticker" : "MSFT",
+            "prediction" : 2.955962918849,
+            "prediction_date" : "2017-07-10T14:42:27.042Z",
+            "computation_date" : "2017-07-10T14:42:27.042Z"
+        }, 
+        {
+            "_id" : ObjectId("5a56b2c6d0090ced035b3148"),
+            "ticker" : "MSFT",
+            "prediction" : 7.955962918849,
+            "prediction_date" : "2017-08-10T14:42:27.042Z",
+            "computation_date" : "2017-08-10T14:42:27.042Z"
+        }, 
+        {
+            "_id" : ObjectId("5a56b2c6d0090ced035b314b"),
+            "ticker" : "MSFT",
+            "prediction" : 27.955962918849,
+            "prediction_date" : "2017-01-10T14:42:27.042Z",
+            "computation_date" : "2017-05-10T14:42:27.042Z"
+        }, 
+        {
+            "_id" : ObjectId("5a56b2c6d0090ced035b314c"),
+            "ticker" : "MSFT",
+            "prediction" : 17.955962918849,
+            "prediction_date" : "2017-03-10T14:42:27.042Z",
+            "computation_date" : "2017-05-10T14:42:27.042Z"
+        }, 
+        {
+            "_id" : ObjectId("5a56b2c6d0090ced035b314e"),
+            "ticker" : "MSFT",
+            "prediction" : 12.955962918849,
+            "prediction_date" : "2017-04-10T14:42:27.042Z",
+            "computation_date" : "2017-05-10T14:42:27.042Z"
+        }, 
+        {
+            "_id" : ObjectId("5a56b2c6d0090ced035b3150"),
+            "ticker" : "MSFT",
+            "prediction" : 1.955962918849,
+            "prediction_date" : "2017-05-10T14:42:27.042Z",
+            "computation_date" : "2017-06-10T14:42:27.042Z"
+        }
+    ]
+}
+
+/* 2 */
+{
+    "_id" : "FB",
+    "ticker" : [ 
+        {
+            "_id" : ObjectId("5a56b2c6d0090ced035b313a"),
+            "ticker" : "FB",
+            "prediction" : 127.955962918849,
+            "prediction_date" : "2018-01-06T14:42:27.042Z",
+            "computation_date" : "2018-08-08T14:42:27.042Z"
+        }, 
+        {
+            "_id" : ObjectId("5a56b2c6d0090ced035b313b"),
+            "ticker" : "FB",
+            "prediction" : 27.955962918849,
+            "prediction_date" : "2018-01-07T14:42:27.042Z",
+            "computation_date" : "2018-03-09T14:42:27.042Z"
+        }
+    ]
+}
+
+/* 3 */
+{
+    "_id" : "GGL",
+    "ticker" : [ 
+        {
+            "_id" : ObjectId("5a56b2c6d0090ced035b3149"),
+            "ticker" : "GGL",
+            "prediction" : 127.955962918849,
+            "prediction_date" : "2017-09-10T14:42:27.042Z",
+            "computation_date" : "2017-09-10T14:42:27.042Z"
+        }, 
+        {
+            "_id" : ObjectId("5a56b2c6d0090ced035b3151"),
+            "ticker" : "GGL",
+            "prediction" : 27.955962918849,
+            "prediction_date" : "2017-10-10T14:42:27.042Z",
+            "computation_date" : "2017-10-10T14:42:27.042Z"
+        }, 
+        {
+            "_id" : ObjectId("5a56b2c6d0090ced035b3152"),
+            "ticker" : "GGL",
+            "prediction" : 12.955962918849,
+            "prediction_date" : "2017-11-10T14:42:27.042Z",
+            "computation_date" : "2017-12-10T14:42:27.042Z"
+        }, 
+        {
+            "_id" : ObjectId("5a56b2c6d0090ced035b3153"),
+            "ticker" : "GGL",
+            "prediction" : 17.955962918849,
+            "prediction_date" : "2017-11-10T14:42:27.042Z",
+            "computation_date" : "2017-11-10T14:42:27.042Z"
+        }
+    ]
+}
+
+/* 4 */
+{
+    "_id" : "AAPL",
+    "ticker" : [ 
+        {
+            "_id" : ObjectId("5a56b2c6d0090ced035b3139"),
+            "ticker" : "AAPL",
+            "prediction" : 7.955962918849,
+            "prediction_date" : "2018-01-05T14:42:27.042Z",
+            "computation_date" : "2018-08-07T14:42:27.042Z"
+        }, 
+        {
+            "_id" : ObjectId("5a56b2c6d0090ced035b3143"),
+            "ticker" : "AAPL",
+            "prediction" : 12.955962918849,
+            "prediction_date" : "2018-01-02T14:42:27.042Z",
+            "computation_date" : "2018-11-03T14:42:27.042Z"
+        }, 
+        {
+            "_id" : ObjectId("5a56b2c6d0090ced035b3144"),
+            "ticker" : "AAPL",
+            "prediction" : 1.955962918849,
+            "prediction_date" : "2018-01-03T14:42:27.042Z",
+            "computation_date" : "2018-11-04T14:42:27.042Z"
+        }, 
+        {
+            "_id" : ObjectId("5a56b2c6d0090ced035b314a"),
+            "ticker" : "AAPL",
+            "prediction" : 2.955962918849,
+            "prediction_date" : "2018-01-04T14:42:27.042Z",
+            "computation_date" : "2018-09-06T14:42:27.042Z"
+        }
+    ]
+}

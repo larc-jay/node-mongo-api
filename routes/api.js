@@ -49,7 +49,7 @@ router.post('/pridiction',function(req,res, next){
    
 });
 
-/*
+
 router.get('/pridiction/:ticker/:sdate/:edate',function(req,res, next){
    Pridiction.find({
       $and : [
@@ -60,18 +60,24 @@ router.get('/pridiction/:ticker/:sdate/:edate',function(req,res, next){
    }).catch(next);
    
 });
-*/
+
+/*
+db.getCollection('sample').aggregate([{$match:{ticker :{$in : ['FB','MSFT']},prediction_date : { $gte : '2018-01-01', $lte : '2018-01-08'}}},
+{ $group : { _id : "$ticker", ticker: { $push: "$$ROOT" } }}])
+
 router.get('/pridiction/:ticker/:sdate/:edate',function(req,res, next){
-   Pridiction.aggregate([{ $group : { _id : "$ticker", ticker: { $push: "$$ROOT" } }}],
-      ,$and : [
-      {ticker :{$in : req.params.ticker.split(',')}},
-      {prediction_date : { $gte : req.params.sdate , $lte : req.params.edate}}]
+   console.log(req.params.ticker.split(','));
+    console.log(req.params.sdate);
+     console.log(req.params.edate);
+   Pridiction.aggregate( 
+      [{$match:{ticker :{$in : req.params.ticker.split(',')},prediction_date : { $gte : req.params.sdate, $lte : req.params.edate}}},
+      { $group : { _id : "$ticker", ticker: { $push: "$$ROOT" } }}]
       ).then(function(prid){
       res.send(prid);
    }).catch(next);
    
 });
-
+*/
 
 
 /*
